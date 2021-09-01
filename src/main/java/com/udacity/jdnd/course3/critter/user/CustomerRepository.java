@@ -15,6 +15,6 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
     Customer findCustomerById(long id);
 
-    Customer findCustomerByPets(Pet pet);
+     Customer findCustomerByPets(Pet pet);
 
 }
